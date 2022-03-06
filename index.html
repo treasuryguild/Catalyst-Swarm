@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class='cardstop'>Community Governance Oversight Transaction Form</div>
+    <article>  
+        <div class='main'> 
+        
+        <form class='testing'>
+            <div class = 'form'>
+                <select class = 'dropd' id = 'pool'>
+                    <option value='Community Governance Oversight' selected>Community Governance Oversight</option>
+                    <option value='Catalyst Audit Circle'>Catalyst Audit Circle</option>
+                </select>
+            </div>
+            <div class = 'form'>
+                <select class = 'dropd' id = 'name'>
+                    <option value='Eric Helms' selected>Eric Helms</option>
+                    <option value='George Lovegrove'>George Lovegrove</option>
+                    <option value='Jo Allum'>Jo Allum</option>
+                    <option value='Matthias Sieber'>Matthias Sieber</option>
+                    <option value='Ron Hill'>Ron Hill</option>
+                    <option value='Phil Khoo'>Phil Khoo</option>
+                    <option value='Stephen Whitenstall'>Stephen Whitenstall</option>
+                </select>
+            </div>
+            <div class = 'form'>
+                <select class = 'dropd' id = 'budgetB'>
+                    <option value='Remuneration' selected>Remuneration</option>
+                    <option value='Comm/Org Tools'>Comm/Org Tools</option>
+                    <option value='Surveys'>Surveys</option>
+                    <option value='Retrospectives'>Retrospectives</option>
+                    <option value='Reports'>Reports</option>
+                    <option value='Proposal'>Proposal</option>
+                </select>
+            </div>
+            <div class='form'>
+                <label class = 'custom-field' for='ada'> 
+                <input
+                    type='text'
+                    id='ada'
+                    name='ada'
+                    autoComplete="off"
+                    required
+                />
+                <span class="placeholder">ADA</span>
+                <span class="disco">Amount</span>
+                </label>
+            </div>
+            <div class='form'>
+                <label class = 'custom-field' for='txid'>
+                <input
+                    type='text'
+                    id='txid'
+                    name='txid'
+                    autoComplete="off"
+                    required
+                />
+                <span class="placeholder">Transaction ID</span>
+                <span class="disco">Transaction Hash</span>
+                </label>
+            </div>
+            <div class='form'>
+                <label  for='description'>
+                <textarea class = 'descr'
+                    type='text'
+                    id='description'
+                    name='description'
+                    placeholder="Description"
+                    autoComplete="off"
+                    required
+                ></textarea>
+                <!--<span class="placeholder">Description</span>
+                <span class="disco">Description / Extra comments</span>
+                </label> -->
+            </div>
+            <div class='form'>
+                <button onclick="validateSubmission();" class ='calc'>
+                    Submit
+                </button>
+                <script src="index.js"></script>
+            </div>
+        </form>
+        </div>
+    </article>
+        
+         <!-- We'll prepare our javascript's function for later -->
+        
+</body>
+</html>
