@@ -38,12 +38,18 @@ Description: ${description}`
     function githubQueryLink(pool) {
       var answer = "";
       switch(pool) {
-        case 'Community Governance Oversight':
-          answer = "Fund7/Community-Governance-Oversight/";
+        case 'After Town Hall by Swarm':
+          answer = "Fund7/After-Town-Hall-by-Swarm/";
           break;
-        case 'Catalyst Audit Circle':
-          answer = "Fund7/Catalyst-Audit-Circle/";
+        case 'Catalyst Swarm operations':
+          answer = "Fund7/Catalyst-Swarm-operations/";
           break;
+        case 'Challenge Fest':
+          answer = "Fund7/Challenge-Fest/";
+          break;
+        case 'Stake Pool':
+          answer = "Fund7/Stake-Pool/";
+          break;          
         default:
           answer = "";
           break;
@@ -54,23 +60,44 @@ Description: ${description}`
     function githubQueryLink2(budgetB) {
       var answer = "";
       switch(budgetB) {
-        case 'Remuneration':
-          answer = "Remuneration/";
+        case 'ATH  Event':
+          answer = "ATH-Event/";
           break;
-        case 'Comm/Org Tools':
-          answer = "Comm-Org-Tools/";
+        case 'Marketing Campaign':
+          answer = "Marketing-Campaign/";
           break;
-        case 'Surveys':
-          answer = "Surveys/";
+        case 'Research & Exp on Rep & Reward systems':
+          answer = "Research-and-Exp-on-Rep-and-Reward-systems/";
           break;
-        case 'Retrospectives':
-          answer = "Retrospectives/";
+        case 'Event Playbooks':
+          answer = "Event-Playbooks/";
           break;
-        case 'Reports':
-          answer = "Reports/";
+        case 'The Maintainers':
+          answer = "The-Maintainers/";
           break;
-        case 'Proposal':
-          answer = "Proposal/";
+        case 'The Networking':
+          answer = "The-Networking/";
+          break;
+        case 'The Incubator':
+          answer = "The-Incubator/";
+          break;
+        case 'The Management':
+          answer = "The-Management/";
+          break;
+        case 'The Architecture':
+          answer = "The-Architecture/";
+          break;
+        case 'Orginizing event':
+          answer = "Orginizing-event/";
+          break;
+        case 'Executing event':
+          answer = "Executing-event/";
+          break;    
+        case 'Post tasks':
+          answer = "Post-tasks/";
+          break;               
+        case 'Monthly Swarm Rewards':
+          answer = "Monthly-Swarm-Rewards/";
           break;
         default:
           answer = "";
@@ -79,6 +106,6 @@ Description: ${description}`
       return answer;
     }
     //Open in a new tab
-  window.open("https://github.com/treasuryguild/Community-Governance-Oversight/new/main/content/en/blog/" + githubQueryLink(pool) + githubQueryLink2(budgetB) + "new?value=" + encodedFileText +"&filename=" + filename);
+  window.open("https://github.com/treasuryguild/Catalyst-Swarm/new/main/content/en/blog/" + githubQueryLink(pool) + githubQueryLink2(budgetB) + "new?value=" + encodedFileText +"&filename=" + filename);
     
   }
