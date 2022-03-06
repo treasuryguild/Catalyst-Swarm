@@ -15,8 +15,10 @@ body:
       label: Pool
       description: Please select the funded proposal that will pay for this
       options:
-        - Community Governance Oversight
-        - Catalyst Audit Circle
+        - After Town Hall by Swarm
+        - Catalyst Swarm operations
+        - Challenge Fest
+        - Stake Pool
     validations:
       required: true
   - type: input
@@ -49,12 +51,19 @@ body:
       label: Budget Item
       description: Please select the budget item.
       options:
-        - Remuneration
-        - Comm/Org Tools
-        - Surveys
-        - Retrospectives
-        - Reports
-        - Proposal
+        - ATH  Event
+        - Marketing Campaign
+        - Research & Exp on Rep & Reward systems
+        - Event Playbooks
+        - The Maintainers
+        - The Networking
+        - The Incubator
+        - The Management
+        - The Architecture
+        - Orginizing event
+        - Executing event
+        - Post tasks
+        - Monthly Swarm Rewards
     validations:
       required: true
   - type: textarea
