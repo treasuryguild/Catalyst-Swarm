@@ -1,6 +1,6 @@
 name: Transaction Form 1
 description: Fill in this form when you make a transaction (Complete form 1 and 2)
-title: "CC Treasury Transaction Issue Form"
+title: "Catalyst Swarm Transaction Issue Form"
 labels: ["Transactions"]
 assignees:
   - Andre-Diamond
