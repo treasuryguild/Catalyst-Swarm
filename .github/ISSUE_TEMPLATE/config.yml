@@ -1,8 +1,0 @@
-blank_issues_enabled: false
-contact_links:
-  - name: Transaction Form 2
-    url: https://treasuryguild.github.io/Catalyst-Swarm/
-    about: Fill in this form when you make a transaction (Complete form 1 and 2)
-  - name: Tasks/Misc/Expenses
-    url: https://docs.google.com/forms/d/e/1FAIpQLScLsn_KIw4e6OrVg9X0dRNJ7487lOrkuBhx_EOWdohMKOA4lA/viewform?usp=sf_link
-    about: Google form for tasks/misc/expense ADA requests to be completed by Co-/Proposer
