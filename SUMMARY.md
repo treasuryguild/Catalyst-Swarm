@@ -1,5 +1,5 @@
 # Table of contents
 
 * [Catalyst-Swarm](README.md)
-* [Balance](balance.md)
+* [Balances](balances.md)
 * [Transactions](transactions.md)
