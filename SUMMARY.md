@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Catalyst-Swarm](README.md)
+* [Catalyst Swarm](README.md)
 * [Balances](balances.md)
 * [Transactions](transactions/README.md)
   * [Fund 6](transactions/fund-6/README.md)
