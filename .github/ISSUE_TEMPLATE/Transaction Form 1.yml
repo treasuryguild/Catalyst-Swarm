@@ -3,7 +3,7 @@ description: Fill in this form when you make a transaction (Complete form 1 and 
 title: "Catalyst Swarm Transaction Issue Form"
 labels: ["Transactions"]
 assignees:
-  - Andre-Diamond
+  - miroslavrajh
 body:
   - type: markdown
     attributes:
