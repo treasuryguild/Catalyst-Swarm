@@ -106,6 +106,6 @@ Description: ${description}`
       return answer;
     }
     //Open in a new tab
-  window.open("https://github.com/treasuryguild/Catalyst-Swarm/new/main/content/en/blog/" + githubQueryLink(pool) + githubQueryLink2(budgetB) + "new?value=" + encodedFileText +"&filename=" + filename);
+  window.open("https://github.com/treasuryguild/Catalyst-Swarm/new/main/Transactions/" + githubQueryLink(pool) + githubQueryLink2(budgetB) + "new?value=" + encodedFileText +"&filename=" + filename);
     
   }
