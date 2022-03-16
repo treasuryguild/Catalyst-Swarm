@@ -44,7 +44,7 @@ function getValue(name){
   "date": "${new Date().toUTCString()}",
   "project": "Catalyst Swarm",
   "pool": "${pool}",
-  "Ideascale": "${ideascaleLink(pool)}"
+  "Ideascale": "${ideascaleLink(pool)}",
   "budget": "${budgetB}",
   "ada": ${ada},
   "name": "${name}",
