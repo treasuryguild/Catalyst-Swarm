@@ -8,7 +8,6 @@ function getValue(name){
     const name = getValue('name')
     const budgetB = getValue('budgetB')
     const ada = getValue('ada')
-    const txid = getValue('txid')
     const description = getValue('description')
     const pool = getValue('pool')
     
@@ -40,16 +39,15 @@ function getValue(name){
     //Generate a string mimicing the file structure
     //Indentation is important here
     let fileText = `{
-  "id" : ${new Date().getTime().toString()},
+  "id" : "${new Date().getTime().toString()}",
   "date": "${new Date().toUTCString()}",
   "project": "Catalyst Swarm",
   "pool": "${pool}",
-  "Ideascale": "${ideascaleLink(pool)}",
+  "ideascale": "${ideascaleLink(pool)}",
   "budget": "${budgetB}",
-  "ada": ${ada},
+  "ada": "${ada}",
   "name": "${name}",
-  "wallet": "${txid}",
-  "transaction id": "",
+  "txid": "",
   "description": "${description}"
 }
 `
@@ -86,6 +84,9 @@ function getValue(name){
       switch(budgetB) {
         case 'Incoming IOG':
           answer = "Incoming-IOG/";
+          break;
+        case 'Incoming Stake Pool':
+          answer = "Incoming-Stake-Pool/";
           break;
         case 'ATH  Event':
           answer = "ATH-Event/";
