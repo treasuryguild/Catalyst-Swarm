@@ -1,0 +1,84 @@
+name: Catalyst Swarm Payment Request Form
+description: Fill in this form to request a payment from Treasury
+title: "Catalyst Swarm Payment Request Form"
+labels: ["Payment Request"]
+assignees:
+  - miroslavrajh
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill in the details of the payment
+  - type: dropdown
+    id: pool
+    attributes:
+      label: Proposal
+      description: Please select the funded proposal that will pay for this
+      options:
+        - After Town Hall by Swarm
+        - Catalyst Swarm operations
+        - Challenge Fest
+        - Stake Pool
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Name
+      description: Please enter the name of beneficiary.
+      placeholder: ex. Nadim Karam
+    validations:
+      required: true
+  - type: input
+    id: amount
+    attributes:
+      label: Amount of ADA
+      description: Please enter the amount of ADA.
+      placeholder: ex. 200 ADA or $ amount
+    validations:
+      required: true
+  - type: input
+    id: adaaddress
+    attributes:
+      label: Wallet address
+      description: Please enter the Wallet Address (Only for new addresses, so not required)
+      placeholder: ex. addr1q8ppdh6sxau58rac4djmgqqwq5n4rv7mrqzg90fhugepc0643jccwm47ec6heyazxwf95rexw8rw6r6fnnndfrkpnjusfcdpfn
+    validations:
+      required: false
+  - type: dropdown
+    id: budgetb
+    attributes:
+      label: Budget Item
+      description: Please select the budget item.
+      options:
+        - ATH Event
+        - Marketing Campaign
+        - Research & Exp on Rep & Reward systems
+        - Event Playbooks
+        - The Maintainers
+        - The Networking
+        - The Incubator
+        - The Management
+        - The Architecture
+        - Orginizing event
+        - Executing event
+        - Post tasks
+        - Monthly Swarm Rewards
+    validations:
+      required: true
+  - type: textarea
+    id: Comment
+    attributes:
+      label: Description/Extra Comments
+      description: Description/Extra comments about payment request
+      placeholder: ex. This is a monthly fee, please pay this on the 3rd of each month?
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Agree the information is correct
+      description: By submitting this issue, you agree the information provided is correct.
+      options:
+        - label: I agree the information provided is correct.
+          required: true
