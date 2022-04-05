@@ -1,5 +1,6 @@
 # Catalyst Swarm
 
+- [Payment Request](https://github.com/treasuryguild/Catalyst-Swarm/issues/new?assignees=miroslavrajh&labels=Payment+Request&template=Payment-Request.yml&title=Catalyst+Swarm+Payment+Request+Form)
 - [Transaction Forms](https://github.com/treasuryguild/Catalyst-Swarm/issues/new/choose)
 
 Fund 7 funded proposals (Ideascale links)
