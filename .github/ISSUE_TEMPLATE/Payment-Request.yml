@@ -1,6 +1,6 @@
-name: Catalyst Swarm Payment Request
+name: Catalyst Swarm Payment Request Form
 description: Fill in this form to request a payment from Treasury
-title: "Catalyst Swarm Payment Request Form"
+title: "Catalyst Swarm Payment Request"
 labels: ["Payment Request"]
 assignees:
   - miroslavrajh
