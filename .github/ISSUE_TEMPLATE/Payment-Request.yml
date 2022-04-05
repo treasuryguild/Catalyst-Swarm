@@ -18,7 +18,6 @@ body:
         - After Town Hall by Swarm
         - Catalyst Swarm operations
         - Challenge Fest
-        - Stake Pool
     validations:
       required: true
   - type: input
@@ -51,19 +50,18 @@ body:
       label: Budget Item
       description: Please select the budget item.
       options:
-        - ATH Event
-        - Marketing Campaign
-        - Research & Exp on Rep & Reward systems
-        - Event Playbooks
-        - The Maintainers
-        - The Networking
-        - The Incubator
-        - The Management
-        - The Architecture
-        - Orginizing event
-        - Executing event
-        - Post tasks
-        - Monthly Swarm Rewards
+        - ATH Event (After Townhall)
+        - Marketing Campaign (After Townhall)
+        - Research & Exp on Rep & Reward systems (After Townhall)
+        - Event Playbooks (After Townhall)
+        - The Maintainers (Swarm Operations)
+        - The Networking (Swarm Operations)
+        - The Incubator (Swarm Operations)
+        - The Management (Swarm Operations)
+        - The Architecture (Swarm Operations)
+        - Orginizing event (Challenge Fest)
+        - Executing event (Challenge Fest)
+        - Post tasks (Challenge Fest)
     validations:
       required: true
   - type: textarea
