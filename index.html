@@ -22,19 +22,6 @@
                 </select>
             </div>
             <div class = 'form'>
-                <select class = 'dropd' id = 'name'>
-                    <option value='IOG'>IOG</option>
-                    <option value='Swarm Pool'>Swarm Pool</option>
-                    <option value='Quasar' selected>Quasar</option>
-                    <option value='Felix Weber'>Felix Weber</option>
-                    <option value='Jo Allum'>Jo Allum</option>
-                    <option value='Matthias Sieber'>Matthias Sieber</option>
-                    <option value='Ron Hill'>Ron Hill</option>
-                    <option value='Phil Khoo'>Phil Khoo</option>
-                    <option value='Stephen Whitenstall'>Stephen Whitenstall</option>
-                </select>
-            </div>
-            <div class = 'form'>
                 <select class = 'dropd' id = 'budgetB'>
                     <option value='Incoming IOG'>Incoming IOG</option>
                     <option value='Incoming Stake Pool'>Incoming Stake Pool</option>
@@ -52,6 +39,32 @@
                     <option value='Post tasks'>Post tasks</option>
                     <option value='Monthly Swarm Rewards'>Monthly Swarm Rewards</option>
                 </select>
+            </div>
+            <div class = 'form'>
+                <label class = 'custom-field' for='name'> 
+                    <input
+                        type='text'
+                        id='name'
+                        name='name'
+                        autoComplete="off"
+                        required
+                    />
+                    <span class="placeholder">Name</span>
+                    <span class="disco">Beneficiary</span>
+                    </label>
+            </div>
+            <div class = 'form'>
+                <label class = 'custom-field' for='xrate'> 
+                    <input
+                        type='text'
+                        id='xrate'
+                        name='xrate'
+                        autoComplete="off"
+                        required
+                    />
+                    <span class="placeholder">ex. 0.92</span>
+                    <span class="disco">USD/ADA Exchange Rate</span>
+                    </label>
             </div>
             <div class='form'>
                 <label class = 'custom-field' for='ada'> 
