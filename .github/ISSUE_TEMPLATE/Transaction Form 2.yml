@@ -18,7 +18,7 @@ body:
         - After Town Hall by Swarm
         - Catalyst Swarm operations
         - Challenge Fest
-        - Stake Pool
+        - Treasury Swarm pool Rewards
     validations:
       required: true
   - type: input
