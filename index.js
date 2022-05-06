@@ -129,6 +129,9 @@ function getValue(name){
         case 'Monthly Swarm Rewards':
           answer = "Monthly-Swarm-Rewards/";
           break;
+        case 'Other':
+          answer = "Other/";
+          break;
         default:
           answer = "";
           break;
