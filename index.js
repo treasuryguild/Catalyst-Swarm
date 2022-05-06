@@ -71,8 +71,8 @@ function getValue(name){
         case 'Challenge Fest':
           answer = "Fund7/Challenge-Fest/";
           break;
-        case 'Stake Pool':
-          answer = "Fund7/Stake-Pool/";
+        case 'Treasury Swarm pool Rewards':
+          answer = "Fund7/Treasury-Swarm-pool-Rewards/";
           break;          
         default:
           answer = "";
