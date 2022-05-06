@@ -1,0 +1,13 @@
+{
+  "id" : "1651841840028",
+  "date": "Fri, 06 May 2022 12:57:20 GMT",
+  "project": "Catalyst Swarm",
+  "pool": "Catalyst Swarm operations",
+  "ideascale": "https://cardano.ideascale.com/c/idea/380972",
+  "budget": "Other",
+  "ada": "20",
+  "exchange-rate": "0.80 USD per ADA",
+  "name": "Swarm pool",
+  "txid": "4bac4c3bbb9fc87201fc24c0640994e6abd034eddc46a04dec33d21dedf2d863",
+  "description": "Test new Treasury wallet of 20 ADA"
+}
