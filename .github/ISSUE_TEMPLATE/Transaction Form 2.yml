@@ -52,6 +52,7 @@ body:
       description: Please select the budget item.
       options:
         - Incoming IOG
+        - Incoming Stake Pool
         - ATH Event
         - Marketing Campaign
         - Research & Exp on Rep & Reward systems
