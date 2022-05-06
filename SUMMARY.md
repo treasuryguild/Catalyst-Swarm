@@ -9,4 +9,4 @@
     * [After Town Hall by Catalyst Swarm F7](transactions/fund-7/after-town-hall-by-catalyst-swarm.md)
     * [Catalyst Swarm Operations](transactions/fund-7/catalyst-swarm-operations.md)
     * [Challenge Fest by Catalyst Swarm](transactions/fund-7/challenge-fest-by-catalyst-swarm.md)
-    * [Swarm Block Rewards](transactions/fund-7/swarm-block-rewards.md)
+    * [Treasury Swarm pool Rewards](transactions/fund-7/treasury-swarm-pool-rewards.md)
