@@ -1,0 +1,13 @@
+{
+  "id" : "1651842318115",
+  "date": "Fri, 06 May 2022 13:05:18 GMT",
+  "project": "Catalyst Swarm",
+  "pool": "Catalyst Swarm operations",
+  "ideascale": "https://cardano.ideascale.com/c/idea/380972",
+  "budget": "Other",
+  "ada": "2.174125",
+  "exchange-rate": "0,80 USD per ADA",
+  "name": "Miroslav Rajh",
+  "txid": "f9b1a77a9ade0ad0a12e20249c0096b8a94d167e3faff29a0bac6205a36e4c48",
+  "description": "Treasury send ADA to Swarm pool "
+}
