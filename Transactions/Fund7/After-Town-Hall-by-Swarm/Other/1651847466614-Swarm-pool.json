@@ -9,5 +9,5 @@
   "exchange-rate": "0.85 USD per ADA",
   "name": "Swarm pool",
   "txid": "156880931114e112f759202e12f4084736c062d7d74fdf92218eec9a726346ad",
-  "description": "Treasury Guild send 20 ADA to Swarm pool"
+  "description": "Transaction fee for staking to Swarm pool"
 }
