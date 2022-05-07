@@ -1,12 +1,3 @@
 # Treasury Swarm pool Rewards
 
-| Date | Name | Budget item | Transaction link | ADA out | ADA in | Balance |
-| ---- | ---- | ----------- | ---------------- | ------- | ------ | ------- |
-|      |      |             |                  |         |        |         |
-|      |      |             |                  |         |        |         |
-|      |      |             |                  |         |        |         |
-|      |      |             |                  |         |        |         |
-|      |      |             |                  |         |        |         |
-|      |      |             |                  |         |        |         |
-|      |      |             |                  |         |        |         |
-|      |      |             |                  |         |        |         |
+<table><thead><tr><th>Date</th><th>Name</th><th data-type="select">Budget item</th><th>Transaction link</th><th>ADA out</th><th>ADA in</th><th>Balance</th></tr></thead><tbody><tr><td>06/05/2022</td><td>Catalyst Swarm operations</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>06/05/2022</td><td>Swarm pool</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
