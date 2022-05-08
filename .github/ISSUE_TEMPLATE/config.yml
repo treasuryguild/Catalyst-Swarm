@@ -1,5 +1,8 @@
 blank_issues_enabled: true
 contact_links:
+  - name: Blank Issue
+    url: https://github.com/treasuryguild/Catalyst-Swarm/issues/new
+    about: Blank Issue form
   - name: Transaction Form 1
     url: https://treasuryguild.github.io/Catalyst-Swarm/
     about: Fill in this form when you make a transaction (Complete form 1 and 2)
