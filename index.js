@@ -8,6 +8,7 @@ function getValue(name){
     const name = getValue('name')
     const budgetB = getValue('budgetB')
     const ada = getValue('ada')
+    const gimb = getValue('gimb')
     const description = getValue('description')
     const pool = getValue('pool')
     const xrate = getValue('xrate')
@@ -47,6 +48,7 @@ function getValue(name){
   "ideascale": "${ideascaleLink(pool)}",
   "budget": "${budgetB}",
   "ada": "${ada}",
+  "gimbals": "${gimb}",
   "exchange-rate": "${xrate} USD per ADA",
   "name": "${name}",
   "txid": "",
