@@ -86,11 +86,8 @@ function getValue(name){
     function githubQueryLink2(budgetB) {
       var answer = "";
       switch(budgetB) {
-        case 'Incoming IOG':
-          answer = "Incoming-IOG/";
-          break;
-        case 'Incoming Stake Pool':
-          answer = "Incoming-Stake-Pool/";
+        case 'Incoming':
+          answer = "Incoming/";
           break;
         case 'ATH  Event':
           answer = "ATH-Event/";
@@ -128,9 +125,6 @@ function getValue(name){
         case 'Post tasks':
           answer = "Post-tasks/";
           break;               
-        case 'Monthly Swarm Rewards':
-          answer = "Monthly-Swarm-Rewards/";
-          break;
         case 'Bounty':
           answer = "Bounty/";
           break;
