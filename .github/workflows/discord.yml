@@ -18,7 +18,7 @@ jobs:
          username: Treasury Guild
          color: '#ff00aa'
          avatarUrl: https://github.githubassets.com/images/modules/logos_page/Octocat.png
-         description: "Treasury Guild made a payment"
+         description: "Payment Notification"
          details: ${{ github.event.issue.body }} https://treasury-guild.gitbook.io/catalyst-swarm/
          footer: "View transaction in Gitbook link"
          text: ${{ github.event.issue.title }}
