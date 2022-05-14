@@ -128,6 +128,9 @@ function getValue(name){
         case 'Bounty':
           answer = "Bounty/";
           break;
+        case 'Remuneration':
+          answer = "Remuneration/";
+          break;
         case 'Other':
           answer = "Other/";
           break;
