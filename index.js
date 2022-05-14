@@ -131,6 +131,9 @@ function getValue(name){
         case 'Remuneration':
           answer = "Remuneration/";
           break;
+        case 'Comm-Org Tools':
+          answer = "Comm-Org-Tools/";
+          break;
         case 'Other':
           answer = "Other/";
           break;
