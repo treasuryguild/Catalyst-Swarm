@@ -12,3 +12,4 @@
     * [Treasury Swarm pool Rewards](transactions/fund-7/treasury-swarm-pool-rewards.md)
   * [Fund 8](transactions/fund-8/README.md)
     * [After Town Hall by Catalyst Swarm](transactions/fund-8/after-town-hall-by-catalyst-swarm.md)
+    * [Catalyst Swarm operations](transactions/fund-8/catalyst-swarm-operations.md)
