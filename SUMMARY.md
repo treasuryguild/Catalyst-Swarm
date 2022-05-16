@@ -13,3 +13,4 @@
   * [Fund 8](transactions/fund-8/README.md)
     * [After Town Hall by Catalyst Swarm](transactions/fund-8/after-town-hall-by-catalyst-swarm.md)
     * [Catalyst Swarm operations](transactions/fund-8/catalyst-swarm-operations.md)
+    * [Catalyst Africa Town Hall (CATH)](transactions/fund-8/catalyst-africa-town-hall-cath.md)
