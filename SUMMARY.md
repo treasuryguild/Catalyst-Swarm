@@ -11,7 +11,7 @@
     * [Challenge Fest by Catalyst Swarm](transactions/fund-7/challenge-fest-by-catalyst-swarm.md)
     * [Treasury Swarm pool Rewards](transactions/fund-7/treasury-swarm-pool-rewards.md)
   * [Fund 8](transactions/fund-8/README.md)
-    * [IdeaFest and ChallengeFest by Catalyst Swarm](transactions/fund-8/ideafest-and-challengefest-by-catalyst-swarm.md)
+    * [IdeaFest and ChallengeFest by Catalyst Swarm](transactions/fund-8/challenge-fest-by-catalyst-swarm.md)
     * [After Town Hall by Catalyst Swarm](transactions/fund-8/after-town-hall-by-catalyst-swarm.md)
     * [Catalyst Swarm operations](transactions/fund-8/catalyst-swarm-operations.md)
     * [Catalyst Africa Town Hall (CATH)](transactions/fund-8/catalyst-africa-town-hall-cath.md)
