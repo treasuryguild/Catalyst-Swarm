@@ -17,3 +17,4 @@
     * [Catalyst Africa Town Hall (CATH)](transactions/fund-8/catalyst-africa-town-hall-cath.md)
     * [Treasury Swarm pool Rewards](transactions/fund-8/treasury-swarm-pool-rewards.md)
     * [Swarm donations](transactions/fund-8/swarm-donations.md)
+    * [Swarm documentations](transactions/fund-8/swarm-documentations.md)
