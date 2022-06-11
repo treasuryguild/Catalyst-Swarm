@@ -30,3 +30,11 @@ Click **Run Pen** to View current balance of Funded Proposal "**Catalyst Africa 
 
 {% embed url="https://codepen.io/cc-treasury/pen/oNEQMyr" %}
 
+## Treasury Swarm Pool Rewards
+
+Click **Run Pen** to View current balance of "**Treasury Swarm Pool Rewards**"
+
+{% embed url="https://codepen.io/cc-treasury/pen/GRQwBXZ" %}
+
+
+
