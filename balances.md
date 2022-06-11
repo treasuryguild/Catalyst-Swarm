@@ -41,3 +41,9 @@ Click **Run Pen** to View current balance of "**Treasury Swarm Pool Rewards**"
 Click **Run Pen** to View current balance of "**Swarm Documentation**"
 
 {% embed url="https://codepen.io/cc-treasury/pen/LYQXBJK" %}
+
+## Swarm Donations
+
+Click **Run Pen** to View current balance of "**Swarm Donations**"
+
+{% embed url="https://codepen.io/cc-treasury/pen/rNJQrqZ" %}
