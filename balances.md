@@ -24,3 +24,9 @@ Click **Run Pen** to View current balance of Funded Proposal "**IdeaFest and Cha
 
 {% embed url="https://codepen.io/cc-treasury/pen/zYRMLjm" %}
 
+## Catalyst Africa Town Hall
+
+Click **Run Pen** to View current balance of Funded Proposal "**Catalyst Africa Town Hall**"
+
+{% embed url="https://codepen.io/cc-treasury/pen/oNEQMyr" %}
+
