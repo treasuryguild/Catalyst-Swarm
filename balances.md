@@ -12,3 +12,8 @@ Click **Run Pen** to View current balance of Funded Proposal "**Catalyst Swarm O
 
 {% embed url="https://codepen.io/cc-treasury/pen/wvyQxgG" %}
 
+## After Town Hall by Catalyst Swarm
+
+Click **Run Pen** to View current balance of Funded Proposal "**After Town Hall by Catalyst Swarm**"
+
+{% embed url="https://codepen.io/cc-treasury/pen/mdXQjxJ" %}
