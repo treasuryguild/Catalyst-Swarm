@@ -18,3 +18,4 @@
     * [Treasury Swarm pool Rewards](transactions/fund-8/treasury-swarm-pool-rewards.md)
     * [Swarm donations](transactions/fund-8/swarm-donations.md)
     * [Swarm documentations](transactions/fund-8/swarm-documentations.md)
+    * [Swarm Multi payment wallet](transactions/fund-8/swarm-multi-payment-wallet.md)
