@@ -1,6 +1,6 @@
 # Catalyst Swarm
 
-- [Payment Request (Used by Swarm)](https://github.com/treasuryguild/Catalyst-Swarm/issues/new?assignees=miroslavrajh&labels=Payment+Request&title=Catalyst+Swarm+Payment+Request+Form&body=ooooof+bang)
+- [Payment Request (Used by Swarm)](https://github.com/treasuryguild/Catalyst-Swarm/issues/new?assignees=miroslavrajh&labels=Test2&title=Catalyst+Swarm+Payment+Request+Form&body=ooooof+bang)
 - [Transaction Forms (Used by Treasury Guild)](https://github.com/treasuryguild/Catalyst-Swarm/issues/new/choose)
 
 [//]: # (This may be the most platform independent comment)
