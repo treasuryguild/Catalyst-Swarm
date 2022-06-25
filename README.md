@@ -5,7 +5,7 @@
 
 [//]: # (This may be the most platform independent comment)
 
-[//]: # ([This may be the most platform independent comment](https://github.com/treasuryguild/Catalyst-Swarm/issues/new?assignees=miroslavrajh&labels=Payment+Request&template=Payment-Request.yml&title=Catalyst+Swarm+Payment+Request+Form))
+[//]: # (https://github.com/treasuryguild/Catalyst-Swarm/issues/new?assignees=miroslavrajh&labels=Payment+Request&template=Payment-Request.yml&title=Catalyst+Swarm+Payment+Request+Form)
 
 Fund 7 funded proposals (Ideascale links)
 
