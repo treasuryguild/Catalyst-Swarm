@@ -3,6 +3,10 @@
 - [Payment Request (Used by Swarm)](https://github.com/treasuryguild/Catalyst-Swarm/issues/new?assignees=miroslavrajh&labels=Payment+Request&template=Payment-Request.yml&title=Catalyst+Swarm+Payment+Request+Form)
 - [Transaction Forms (Used by Treasury Guild)](https://github.com/treasuryguild/Catalyst-Swarm/issues/new/choose)
 
+[//]: # (This may be the most platform independent comment)
+
+[//]: # ([This may be the most platform independent comment](https://github.com/treasuryguild/Catalyst-Swarm/issues/new?assignees=miroslavrajh&labels=Payment+Request&template=Payment-Request.yml&title=Catalyst+Swarm+Payment+Request+Form))
+
 Fund 7 funded proposals (Ideascale links)
 
 - [After Town Hall by Swarm](https://cardano.ideascale.com/a/dtd/After-Town-Hall-by-Catalyst-Swarm/380966-48088)
