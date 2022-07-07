@@ -6,6 +6,7 @@ on:
 env: 
   fundR: ${{ fromJSON(github.event.issue.body).fund }} 
   GitB: "catalyst-swarm"
+  gWallet: "Treasury-Swarm-pool-Rewards"
  # schedule:
     # run every 8 hours
   #  - cron:  '0 0,8,16 * * *'
@@ -39,7 +40,7 @@ jobs:
        run: |
          echo "wallet=${{ steps.propdata.outputs.data }}" >> "$GITHUB_ENV"
      - name: Test Custom
-       if: ${{ ( contains(github.event.issue.labels.*.name, 'Incoming') && fromJSON(github.event.issue.body).proposal == 'Treasury-Swarm-pool-Rewards') }}
+       if: ${{ ( contains(github.event.issue.labels.*.name, 'Incoming') && fromJSON(github.event.issue.body).proposal == env.gWallet) }}
        uses: rjstone/discord-webhook-notify@v1
        with:
          severity: info
@@ -67,7 +68,7 @@ jobs:
          text: ${{ github.event.issue.title }}
          webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
      - name: Test Custom2
-       if: ${{ ( contains(github.event.issue.labels.*.name, 'Outgoing') && fromJSON(github.event.issue.body).proposal == 'Treasury-Swarm-pool-Rewards') }}
+       if: ${{ ( contains(github.event.issue.labels.*.name, 'Outgoing') && fromJSON(github.event.issue.body).proposal == env.gWallet) }}
        uses: rjstone/discord-webhook-notify@v1
        with:
          severity: info
@@ -95,7 +96,7 @@ jobs:
          text: ${{ github.event.issue.title }}
          webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
      - name: Test Custom3
-       if: ${{ ( contains(github.event.issue.labels.*.name, 'Incoming') && fromJSON(github.event.issue.body).proposal != 'Treasury-Swarm-pool-Rewards') }}
+       if: ${{ ( contains(github.event.issue.labels.*.name, 'Incoming') && fromJSON(github.event.issue.body).proposal != env.gWallet) }}
        uses: rjstone/discord-webhook-notify@v1
        with:
          severity: info
@@ -121,7 +122,7 @@ jobs:
          text: ${{ github.event.issue.title }}
          webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
      - name: Test Custom4
-       if: ${{ ( contains(github.event.issue.labels.*.name, 'Outgoing') && fromJSON(github.event.issue.body).proposal != 'Treasury-Swarm-pool-Rewards') }}
+       if: ${{ ( contains(github.event.issue.labels.*.name, 'Outgoing') && fromJSON(github.event.issue.body).proposal != env.gWallet) }}
        uses: rjstone/discord-webhook-notify@v1
        with:
          severity: info
