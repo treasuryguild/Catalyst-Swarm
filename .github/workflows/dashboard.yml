@@ -4,6 +4,9 @@ on:
   workflow_dispatch:
   schedule:
   - cron: 0 0 * * 6
+env: 
+  Repo: "treasuryguild/Catalyst-Swarm" 
+  
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -37,44 +40,44 @@ jobs:
             description: 'Current state of Issues'
             widgets:
             - type: number
-              issue_query: 'repo:Catalyst-Circle/Catalyst-Prioritized-Problems is:issue created:>{{ date("-30 days") }}'
+              issue_query: 'repo:${{ env.Repo }} is:issue created:>{{ date("-30 days") }}'
               title: 'Opened issues this month'
               color: 'red'
             - type: number
-              issue_query: 'repo:Catalyst-Circle/Catalyst-Prioritized-Problems is:issue closed:>{{ date("-30 days") }}'
+              issue_query: 'repo:${{ env.Repo }} is:issue closed:>{{ date("-30 days") }}'
               title: 'Closed issues this month'
               color: 'green'
           - title: 'All time status'
             description: 'Total Issues opened and closed'
             widgets:
             - type: number
-              issue_query: 'repo:Catalyst-Circle/Catalyst-Prioritized-Problems is:issue created:<{{ date("1 days") }}'
+              issue_query: 'repo:${{ env.Repo }} is:issue created:<{{ date("1 days") }}'
               title: 'Opened issues'
               color: 'red'
             - type: number
-              issue_query: 'repo:Catalyst-Circle/Catalyst-Prioritized-Problems is:issue closed:<{{ date("1 days") }}'
+              issue_query: 'repo:${{ env.Repo }} is:issue closed:<{{ date("1 days") }}'
               title: 'Closed issues'
               color: 'green'
           - title: 'Updated Issues'
             description: 'Total issues that received updates'
             widgets:
             - type: number
-              issue_query: 'repo:Catalyst-Circle/Catalyst-Prioritized-Problems is:open is:issue updated:{{ date("-60 days") }}..{{ date("-30 days") }}'
+              issue_query: 'repo:${{ env.Repo }} is:open is:issue updated:{{ date("-60 days") }}..{{ date("-30 days") }}'
               title: 'Last month'
               color: 'yellow'
             - type: number
-              issue_query: 'repo:Catalyst-Circle/Catalyst-Prioritized-Problems is:open is:issue updated:>{{ date("-30 days") }}'
+              issue_query: 'repo:${{ env.Repo }} is:open is:issue updated:>{{ date("-30 days") }}'
               title: 'This month'
               color: 'blue'
           - title: 'Issue comments'
             description: 'Total issues that received comments'
             widgets:
             - type: number
-              issue_query: 'repo:Catalyst-Circle/Catalyst-Prioritized-Problems is:open is:issue comments:>0 updated:{{ date("-60 days") }}..{{ date("-30 days") }}'
+              issue_query: 'repo:${{ env.Repo }} is:open is:issue comments:>0 updated:{{ date("-60 days") }}..{{ date("-30 days") }}'
               title: 'Last month'
               color: 'yellow'
             - type: number
-              issue_query: 'repo:Catalyst-Circle/Catalyst-Prioritized-Problems is:open is:issue comments:>0 updated:>{{ date("-30 days") }}'
+              issue_query: 'repo:${{ env.Repo }} is:open is:issue comments:>0 updated:>{{ date("-30 days") }}'
               title: 'This month'
               color: 'blue'
           - title: 'Circles'
@@ -84,46 +87,46 @@ jobs:
               title: 'Circle groups'
               elements:
               - title: 'General ADA Holders'
-                issue_query: 'repo:Catalyst-Circle/Catalyst-Prioritized-Problems is:open is:issue label:"General Voters" created:<{{ date("1 days") }}'
+                issue_query: 'repo:${{ env.Repo }} is:open is:issue label:"General Voters" created:<{{ date("1 days") }}'
                 color: 'green'
               - title: 'General ADA Holders (Last Month)'
-                issue_query: 'repo:Catalyst-Circle/Catalyst-Prioritized-Problems is:open is:issue label:"General Voters" created:<{{ date("-30 days") }}'
+                issue_query: 'repo:${{ env.Repo }} is:open is:issue label:"General Voters" created:<{{ date("-30 days") }}'
                 color: 'blue'
               - title: 'Community Advisors'
-                issue_query: 'repo:Catalyst-Circle/Catalyst-Prioritized-Problems is:open is:issue label:"Community Advisor" created:<{{ date("1 days") }}'
+                issue_query: 'repo:${{ env.Repo }} is:open is:issue label:"Community Advisor" created:<{{ date("1 days") }}'
                 color: 'green'
               - title: 'Community Advisors (Last Month)'
-                issue_query: 'repo:Catalyst-Circle/Catalyst-Prioritized-Problems is:open is:issue label:"Community Advisor" created:<{{ date("-30 days") }}'
+                issue_query: 'repo:${{ env.Repo }} is:open is:issue label:"Community Advisor" created:<{{ date("-30 days") }}'
                 color: 'blue'
               - title: 'Funded Proposers'
-                issue_query: 'repo:Catalyst-Circle/Catalyst-Prioritized-Problems is:open is:issue label:"Funded Proposers" created:<{{ date("1 days") }}'
+                issue_query: 'repo:${{ env.Repo }} is:open is:issue label:"Funded Proposers" created:<{{ date("1 days") }}'
                 color: 'green'
               - title: 'Funded Proposers (Last Month)'
-                issue_query: 'repo:Catalyst-Circle/Catalyst-Prioritized-Problems is:open is:issue label:"Funded Proposers" created:<{{ date("-30 days") }}'
+                issue_query: 'repo:${{ env.Repo }} is:open is:issue label:"Funded Proposers" created:<{{ date("-30 days") }}'
                 color: 'blue'
               - title: 'Toolmakers and Maintainers'
-                issue_query: 'repo:Catalyst-Circle/Catalyst-Prioritized-Problems is:open is:issue label:"Toolmaker and Maintainer" created:<{{ date("1 days") }}'
+                issue_query: 'repo:${{ env.Repo }} is:open is:issue label:"Toolmaker and Maintainer" created:<{{ date("1 days") }}'
                 color: 'green'
               - title: 'Toolmakers and Maintainers (Last Month)'
-                issue_query: 'repo:Catalyst-Circle/Catalyst-Prioritized-Problems is:open is:issue label:"Toolmaker and Maintainer" created:<{{ date("-30 days") }}'
+                issue_query: 'repo:${{ env.Repo }} is:open is:issue label:"Toolmaker and Maintainer" created:<{{ date("-30 days") }}'
                 color: 'blue'
               - title: 'Stake Pool Operators'
-                issue_query: 'repo:Catalyst-Circle/Catalyst-Prioritized-Problems is:open is:issue label:"SPOs" created:<{{ date("1 days") }}'
+                issue_query: 'repo:${{ env.Repo }} is:open is:issue label:"SPOs" created:<{{ date("1 days") }}'
                 color: 'green'
               - title: 'Stake Pool Operators (Last Month)'
-                issue_query: 'repo:Catalyst-Circle/Catalyst-Prioritized-Problems is:open is:issue label:"SPOs" created:<{{ date("-30 days") }}'
+                issue_query: 'repo:${{ env.Repo }} is:open is:issue label:"SPOs" created:<{{ date("-30 days") }}'
                 color: 'blue'
               - title: 'IOG'
-                issue_query: 'repo:Catalyst-Circle/Catalyst-Prioritized-Problems is:open is:issue label:"IOG" created:<{{ date("1 days") }}'
+                issue_query: 'repo:${{ env.Repo }} is:open is:issue label:"IOG" created:<{{ date("1 days") }}'
                 color: 'green'
               - title: 'IOG (Last Month)'
-                issue_query: 'repo:Catalyst-Circle/Catalyst-Prioritized-Problems is:open is:issue label:"IOG" created:<{{ date("-30 days") }}'
+                issue_query: 'repo:${{ env.Repo }} is:open is:issue label:"IOG" created:<{{ date("-30 days") }}'
                 color: 'blue'
               - title: 'Cardano Foundation'
-                issue_query: 'repo:Catalyst-Circle/Catalyst-Prioritized-Problems is:open is:issue label:"Cardano Foundation" created:<{{ date("1 days") }}'
+                issue_query: 'repo:${{ env.Repo }} is:open is:issue label:"Cardano Foundation" created:<{{ date("1 days") }}'
                 color: 'green'
               - title: 'Cardano Foundation (Last Month)'
-                issue_query: 'repo:Catalyst-Circle/Catalyst-Prioritized-Problems is:open is:issue label:"Cardano Foundation" created:<{{ date("-30 days") }}'
+                issue_query: 'repo:${{ env.Repo }} is:open is:issue label:"Cardano Foundation" created:<{{ date("-30 days") }}'
                 color: 'blue'
                 
         token: ${{ github.token }}
