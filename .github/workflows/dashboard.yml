@@ -5,7 +5,8 @@ on:
   schedule:
   - cron: 0 0 * * 6
 env: 
-  Repo: "treasuryguild/Catalyst-Swarm" 
+  Repo: "treasuryguild/Catalyst-Swarm"
+  RepoName: "Catalyst Swarm" 
   
 jobs:
   build:
@@ -24,7 +25,7 @@ jobs:
       uses: ethomson/issue-dashboard@v1
       with:
         config: |
-          title: 'Catalyst Prioritized Problems Dashboard'
+          title: '${{ env.RepoName }} Transactions Dashboard'
           output:
             format: html
             filename: 'out/index.html'
