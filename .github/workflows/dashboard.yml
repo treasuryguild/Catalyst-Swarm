@@ -37,13 +37,13 @@ jobs:
             }
             userdata.num = 0
           sections:
-          - title: 'Current Status'
-            description: 'Current state of Issues'
+          - title: 'IOG Instalments'
+            description: 'Amounts and Exchange rates'
             widgets:
             - type: number
-              issue_query: 'repo:${{ env.Repo }} is:issue created:>{{ date("-30 days") }}'
-              title: 'Opened issues this month'
-              color: 'red'
+              issue_query: 'repo:${{ env.Repo }} Incoming in:body is:issue is:closed'
+              title: '{{ fromJSON(item.body).ada }}'
+              color: 'Green'
             - type: number
               issue_query: 'repo:${{ env.Repo }} is:issue closed:>{{ date("-30 days") }}'
               title: 'Closed issues this month'
