@@ -36,14 +36,21 @@ jobs:
               return 'yellow'
             }
             userdata.num = 0
+            
           sections:
           - title: 'IOG Instalments'
             description: 'Amounts and Exchange rates'
             widgets:
             - type: number
-              issue_query: 'repo:${{ env.Repo }} Incoming in:body is:issue is:closed'
-              title: '{{ date(item.created_date) }}'
-              color: 'Green'
+              script: |
+                const repo = '${{ env.RepoName }}'
+                const results = await github.search.issuesAndPullRequests({
+                  q: `repo:${repo} is:issue Incoming in:body is:closed`
+                })
+                const count = results.data.total_count
+                const title = 'Number of IOG instalments'
+                const color = (count > 10) ? 'red' : 'green'
+                return { value: count, title: title, color: color }
             - type: number
               issue_query: 'repo:${{ env.Repo }} is:issue closed:>{{ date("-30 days") }}'
               title: 'Closed issues this month'
