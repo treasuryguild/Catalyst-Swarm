@@ -42,7 +42,7 @@ jobs:
             widgets:
             - type: number
               issue_query: 'repo:${{ env.Repo }} Incoming in:body is:issue is:closed'
-              title: '${{ fromJSON(item.body).ada }}'
+              title: '{{ date(item.created_date) }}'
               color: 'Green'
             - type: number
               issue_query: 'repo:${{ env.Repo }} is:issue closed:>{{ date("-30 days") }}'
