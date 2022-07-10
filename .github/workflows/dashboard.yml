@@ -43,7 +43,7 @@ jobs:
             widgets:
             - type: number
               script: |
-                const repo = ${{ env.RepoName }}
+                const repo = ${{ env.Repo }}
                 const results = await github.search.issuesAndPullRequests({
                   q: `repo:${repo} is:issue Incoming in:body is:closed`
                 })
