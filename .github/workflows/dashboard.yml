@@ -38,8 +38,8 @@ jobs:
             userdata.num = 0
             
           sections:
-          - title: 'IOG Instalments'
-            description: 'Amounts and Exchange rates'
+          - title: 'TEst'
+            description: 'Testing out Dashboard'
             widgets:
             - type: number
               script: |
@@ -89,54 +89,24 @@ jobs:
               title: 'This month'
               color: 'blue'
           - title: 'Circles'
-            description: 'Issues per group (Some issues involve more than one group)'
+            description: 'TEst chart'
             widgets:
             - type: graph
               title: 'Circle groups'
               elements:
-              - title: 'General ADA Holders'
+              - title: 'Test 1'
                 issue_query: 'repo:${{ env.Repo }} is:open is:issue label:"General Voters" created:<{{ date("1 days") }}'
                 color: 'green'
-              - title: 'General ADA Holders (Last Month)'
+              - title: 'Test 2'
                 issue_query: 'repo:${{ env.Repo }} is:open is:issue label:"General Voters" created:<{{ date("-30 days") }}'
                 color: 'blue'
-              - title: 'Community Advisors'
+              - title: 'Test 3'
                 issue_query: 'repo:${{ env.Repo }} is:open is:issue label:"Community Advisor" created:<{{ date("1 days") }}'
                 color: 'green'
-              - title: 'Community Advisors (Last Month)'
+              - title: 'Test 4'
                 issue_query: 'repo:${{ env.Repo }} is:open is:issue label:"Community Advisor" created:<{{ date("-30 days") }}'
                 color: 'blue'
-              - title: 'Funded Proposers'
-                issue_query: 'repo:${{ env.Repo }} is:open is:issue label:"Funded Proposers" created:<{{ date("1 days") }}'
-                color: 'green'
-              - title: 'Funded Proposers (Last Month)'
-                issue_query: 'repo:${{ env.Repo }} is:open is:issue label:"Funded Proposers" created:<{{ date("-30 days") }}'
-                color: 'blue'
-              - title: 'Toolmakers and Maintainers'
-                issue_query: 'repo:${{ env.Repo }} is:open is:issue label:"Toolmaker and Maintainer" created:<{{ date("1 days") }}'
-                color: 'green'
-              - title: 'Toolmakers and Maintainers (Last Month)'
-                issue_query: 'repo:${{ env.Repo }} is:open is:issue label:"Toolmaker and Maintainer" created:<{{ date("-30 days") }}'
-                color: 'blue'
-              - title: 'Stake Pool Operators'
-                issue_query: 'repo:${{ env.Repo }} is:open is:issue label:"SPOs" created:<{{ date("1 days") }}'
-                color: 'green'
-              - title: 'Stake Pool Operators (Last Month)'
-                issue_query: 'repo:${{ env.Repo }} is:open is:issue label:"SPOs" created:<{{ date("-30 days") }}'
-                color: 'blue'
-              - title: 'IOG'
-                issue_query: 'repo:${{ env.Repo }} is:open is:issue label:"IOG" created:<{{ date("1 days") }}'
-                color: 'green'
-              - title: 'IOG (Last Month)'
-                issue_query: 'repo:${{ env.Repo }} is:open is:issue label:"IOG" created:<{{ date("-30 days") }}'
-                color: 'blue'
-              - title: 'Cardano Foundation'
-                issue_query: 'repo:${{ env.Repo }} is:open is:issue label:"Cardano Foundation" created:<{{ date("1 days") }}'
-                color: 'green'
-              - title: 'Cardano Foundation (Last Month)'
-                issue_query: 'repo:${{ env.Repo }} is:open is:issue label:"Cardano Foundation" created:<{{ date("-30 days") }}'
-                color: 'blue'
-                
+                                            
         token: ${{ github.token }}
 
     - name: Publish Documentation
