@@ -18,6 +18,5 @@
     * [Treasury Swarm pool Rewards](transactions/fund-8/treasury-swarm-pool-rewards.md)
     * [Swarm donations](transactions/fund-8/swarm-donations.md)
     * [Swarm documentations](transactions/fund-8/swarm-documentations.md)
-    * [European Town Hall](transactions/fund-8/european-town-hall.md)
     * [Swarm ATH Team](transactions/fund-8/swarm-ath-team.md)
     * [Swarm Multi payment wallet](transactions/fund-8/swarm-multi-payment-wallet.md)
